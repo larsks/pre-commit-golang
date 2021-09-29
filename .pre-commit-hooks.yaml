@@ -78,7 +78,6 @@
 -   id: go-generate
     name: 'go-generate'
     entry: run-go-generate.sh
-    files: '\.go$'
     language: 'script'
     description: "Runs `go generate`, requires golang"
 -   id: go-mod-tidy
